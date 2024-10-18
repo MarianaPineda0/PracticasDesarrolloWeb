@@ -1,0 +1,98 @@
+body {
+    background: #d4cbcb;
+    font-family: 'Roboto', sans-serif;
+    margin: 0; 
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background: #086788; 
+    color: white; 
+}
+
+nav {
+    margin: 20px 0; 
+}
+
+h1 {
+    margin: 10px 0; 
+}
+
+h2 {
+    color: #086788; 
+}
+
+main {
+    padding: 20px;
+}
+
+main div {
+    background: white; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 20px; 
+    padding: 20px; 
+    position: relative; /* Permitir posicionar elementos hijos de forma absoluta */
+}
+
+ul {
+    list-style-type: square; 
+    padding-left: 50px; 
+}
+
+.btn {
+    color: #fff; 
+    font-size: 16px; 
+    font-weight: bold;
+    text-decoration: none; 
+    text-align: center;
+    display: inline-block; 
+    margin: 10px 5px; 
+    border-radius: 5px; 
+}
+
+.btn.level-one {
+    background: #7ecf8d;
+    color: #fff; 
+    width: 50px;
+    padding: 15px 20px;
+}
+
+.btn.level-two {
+    background: #5bc06d;
+    color: #fff; 
+    width: 80px;
+    padding: 20px 25px;
+}
+
+.btn.level-three {
+    background: #3ac353;
+    color: #fff; 
+    width: 105px;
+    padding: 25px 30px;
+}
+
+.btn.level-four {
+    background: #03c426;
+    color: #fff; 
+    width: 120px;
+    padding: 30px 35px;
+}
+
+.btn.info {
+    background: #1d498f;
+    color: #fff; 
+    width: 90px;
+    position: absolute;
+    left: 1050px;
+    bottom: 20px;
+    padding: 10px 15px;
+}
+
+
+.btn:hover {
+    background: #bdc8db; 
+}
+
+
