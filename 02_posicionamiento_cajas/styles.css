@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #f2f2f2;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #3a0042;
+    color: white;
+}
+
+h1 {
+    font-size: 28px;
+    padding: 20px;
+}
+
+.parent-box {
+    margin: 20px auto;
+    background: #3a0042;
+    position: relative;
+    width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center;
+    height: 600px; 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+
+.box {
+    width: 150px;
+    height: 150px;
+    background: #c105c1;
+    margin: 10px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 30px; 
+    transition: background 0.3s;
+    position: relative; /* Posición relativa para que el z-index funcione */
+}
+
+
+.position {
+    background: #c105c1;
+    width: 180px;
+    height: 180px;
+    position: absolute; /* Cambia a absolute para superponerse */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); /* Centrar la caja en el contenedor */
+    z-index: 1; /* Asegura que el álbum destacado esté por encima */
+}
+
+.box:hover {
+    background: #cf6eda; 
+}
+
+
+h3 {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+p {
+    font-size: 12px;
+}
